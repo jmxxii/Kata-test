@@ -22,9 +22,9 @@ for(let i = 0; i < data.length; i++){
     } else if(data[i] === "d"){
       count--
     } else if(data[i] === "s"){
-      count = counter*counter
+      count = count*count
     } else if(data[i] === "o"){
-      result.push(counter)
+      result.push(count)
     }
   }
   return result
